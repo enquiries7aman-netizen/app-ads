@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aman Inc - Scientific Calculator</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+background: radial-gradient(circle at top,#1a1f35,#0b0e18);
+color:white;
+overflow-x:hidden;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:90px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+background:linear-gradient(90deg,#4facfe,#00f2fe);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+opacity:.85;
+}
+
+/* CONTAINER */
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* GLASS CARD */
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(16px);
+border-radius:18px;
+padding:30px;
+margin-bottom:35px;
+border:1px solid rgba(255,255,255,0.08);
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* HEADERS */
+.section-title{
+font-size:26px;
+margin-bottom:20px;
+color:#00eaff;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+padding:14px 24px;
+border-radius:10px;
+background:linear-gradient(90deg,#00eaff,#4facfe);
+color:black;
+font-weight:bold;
+text-decoration:none;
+transition:.25s;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+/* FEATURES GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:18px;
+}
+
+.feature{
+background:rgba(255,255,255,0.04);
+padding:18px;
+border-radius:12px;
+text-align:center;
+}
+
+/* SCREENSHOTS */
+.screens{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.screen{
+height:360px;
+border-radius:14px;
+background:linear-gradient(145deg,#1d2238,#0d1020);
+display:flex;
+align-items:center;
+justify-content:center;
+opacity:.6;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px;
+opacity:.7;
+font-size:14px;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+.hero h1{
+font-size:36px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Aman Inc</h1>
+<p>Modern Utility Apps for Android</p>
+</section>
+
+<div class="container">
+
+<!-- APP CARD -->
+<div class="card">
+
+<h2 class="section-title">Scientific Calculator</h2>
+
+<p>
+A fast and modern scientific calculator with a powerful unit conversion system.
+Designed for accuracy, performance, and clean usability.
+</p>
+
+<br>
+
+<a class="btn"
+href="https://play.google.com/store/apps/details?id=com.tridant.procalculator&hl=en_ZA"
+target="_blank">
+View on Play Store
+</a>
+
+</div>
+
+<!-- FEATURES -->
+<div class="card">
+<h2 class="section-title">Features</h2>
+
+<div class="grid">
+
+<div class="feature">
+Scientific Functions  
+<br><small>sin, cos, tan, log, powers</small>
+</div>
+
+<div class="feature">
+Advanced Expressions  
+<br><small>Fast calculation engine</small>
+</div>
+
+<div class="feature">
+Unit Conversions  
+<br><small>Length, Mass, Temperature & more</small>
+</div>
+
+<div class="feature">
+Modern UI  
+<br><small>Clean responsive layout</small>
+</div>
+
+<div class="feature">
+Lightweight  
+<br><small>Optimized performance</small>
+</div>
+
+<div class="feature">
+Offline Support  
+<br><small>No internet required</small>
+</div>
+
+</div>
+</div>
+
+<!-- CHANGELOG -->
+<div class="card">
+<h2 class="section-title">Version Changelog</h2>
+
+<p><b>Current Version:</b> v1.0.3.7</p>
+
+<br>
+
+<ul>
+<li>Improved layout scaling</li>
+<li>Conversion system improvements</li>
+<li>UI fixes for tablets</li>
+<li>Performance optimizations</li>
+<li>Added conversions for lenght, weight , etc</li>
+</ul>
+
+</div>
+
+<!-- CONTACT -->
+<div class="card">
+<h2 class="section-title">Contact</h2>
+
+<p>Email: enquiries7.aman@gmail.com</p>
+
+<br>
+
+<a class="btn" href="mailto:enquiries7.aman@gmail.com?subject=Scientific Calculator Support">
+Contact Support
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Aman Inc  
+<br><br>
+<a href="privacy.html" style="color:#00eaff">Privacy Policy</a> |
+<a href="terms.html" style="color:#00eaff">Terms of Service</a>
+</footer>
+
+</body>
+</html>
